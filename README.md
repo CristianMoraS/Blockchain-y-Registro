@@ -34,6 +34,24 @@ al paquete donde se encuentra el proyecto principal.
     - Node(_int code, int nonce, String data, String anthash, String prehash_): Esta ingresa al nodo (bloque), todos los datos del
       BlockChain.
     - toString(): Este método se implementa para imprimir los datos de la clase (**_NOTA_** No está en uso en el código).
+    
+## Register:
+Registro cumple la función de validar 2 direcciones de tipo char (wallets) y un valor numérico de tipo double (Monto).
+
+### Paquetes:
+* _com.mycompany.register_: Este paquete almacena las clases que dan funcion a todo el sistema de registro.
+### Clases:
+* Auxiliar:
+  + **Metodos:**
+    - num(): Esté método valida que el ingreso del monto sea de valor númerico, retorna un valor boolean que nos permita  
+    confirmar, resive un parametro de tipo double.
+* Register:
+  + **Metodos:**
+    - ValidarDirecciones(): Este metodo, valida a través de diferentes condicionales, las direcciones cumplan tanto con el
+    número de caracteres, como con los caracteres validos de cada una de las direcciones wallet.
+   
+    
+
 
 
 
